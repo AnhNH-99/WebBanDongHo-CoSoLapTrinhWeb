@@ -1,0 +1,397 @@
+<!doctype html>
+<html>
+<head>
+<title>Đồng hồ Thụy Sỹ, đồng hồ nam, đồng hồ nữ chính hãng cao cấp</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="BC.css" />
+	
+   <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#stt a').click(function() {
+                var src = $(this).attr('imgtarget');
+                $('#imgShow').attr('src', src);
+            })
+        })
+        window.onload = function() {
+            setTimeout("switchImage()", 2000);
+        }
+        var current = 1;
+        var numIMG = 3;
+
+        function switchImage() {
+            current++;
+            document.images['imgShow'].src = 'img/' + current + '.jpg';
+            if (current == numIMG) {
+                current = 0
+            }
+            setTimeout("switchImage()", 2000);
+        }
+    </script>
+
+<body>
+		<!--Head-->
+		<header>
+			<div class="hd">
+					<div class="logo fl-left">
+							<a href="BaoCao.html"><img src="img/Capture33.PNG" /></a><br/>
+				   </div>
+					<div class="fl-left">
+							<input class="t" type="text" placeholder="   Tìm kiếm sản phẩm..." name=""/><input class="t1" type="submit" value="Tìm kiếm" name=""/>
+					</div>
+					<div class="twitter0 fl-left" align="justify">
+						<a class="v" href="Baocao4.html" title="Giỏ hàng">Giỏ hàng(0)</a>
+					</div>
+					<div id="dh" class="twitter1 fl-left">
+						<ul>
+							<li>
+								<a href="Baocao3.html"><span>Đăng nhập</span></a>
+								<ul class="sub-dh">
+									<li><a href="Baocao3.html">Đăng nhập</a></li>
+									<li><a href="Baocao3.1.html">Đăng ký</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="twitter2 fl-left" >
+						<a href="BaoCao8.html" title="Hệ thống cửa hàng">Hệ thống cửa hàng</a>
+						<a href="BaoCao8.html" title="Hệ thống cửa hàng"><span>(100)Showroom</span></a>
+					</div>
+			</div>
+	</header>
+			<div class="tpt">
+				  <div id="menu" class="fl-left" align="center">
+					  <ul>
+						  <li><a class="dmsp" href="#">
+							  <div class="fl-left">
+								  <div class="d"></div>
+								  <div class="dmspd"></div>
+								  <div  class="dmspd"></div>
+								  <div  class="dmspd"></div>
+							  </div>
+							  <span>DANH MỤC SẢN PHẨM</span>
+							  </a>
+							  <ul class="sub-menu">
+								  <li><a href="#" title="Đồng hồ chính hãng">Đồng hồ Epos Swiss</a></li><br/>
+								  <li><a href="BaoCao2.html" title="Đồng hồ nam">Đồng hồ Atlantic Swiss</a></li><br/>
+								  <li><a href="#" title="Đồng hồ nữ">Đồng hồ Diamond D</a></li><br/>
+								  <li><a href="#" title="Đồng hồ đôi">Đồng hồ Aries Gold</a></li><br/>
+								  <li><a href="#" title="Phụ kiện đồng hồ">Đồng hồ Jacques Lemans</a></li>
+								  <li><a href="#" title="Phụ kiện đồng hồ">Đồng hồ QQ</a></li>
+							  </ul>
+						 </li>
+					  </ul>
+				  </div>
+				  <div class="dmdh fl-left" align="right">
+					  <a href="BaoCao2.html" title="Đồng hồ">ĐỒNG HỒ</a>
+				  </div>
+				  <div class="dmdhi fl-left" align="left">
+					  <a href="#">
+						  <img title="Đồng hồ" src="img/Capture2.PNG" />
+					  </a>
+				  </div>
+				  <div class="dmpk fl-left" align="right">
+					  <a href="#" title="Phụ kiện đồng hồ">PHỤ KIỆN ĐỒNG HỒ</a>
+				  </div>
+				  <div class="dmdhi fl-left" align="left">
+					  <a href="#">
+						  <img title="Phụ kiện đồng hồ" src="img/Capture3.PNG"/>
+					  </a>
+				  </div>
+				  <div class="dmdg fl-left" align="right">
+					  <a href="BaoCao5.html" title="Khuyến mãi">KHUYẾN MÃI</a>
+				  </div>
+				  <div class="dmdhi fl-left" align="left">
+					  <a href="#">
+						  <img title="Đấu giá" src="img/Capture4.PNG"/>
+					  </a>
+				  </div>
+				  <div class="dmtg fl-left" align="right"><a href="#"></a></div>
+				  <div class="dmdhi fl-left" align="left">
+					  <a href="BaoCao7.html">
+						  <img title="Trả góp" src="img/Capture7.PNG"/>
+					  </a>
+				  </div>
+				  <div class="dmhitt fl-left" align="left">
+					  <a href="BaoCao6.html">
+					  <img title="Tin tức - Sự kiện" src="img/Capture8.PNG" height="35" />
+					  </a>
+				  </div>
+			</div>
+	<!-- Banner -->
+		<div class='container'>
+             <div class='slider'>
+                 <img id='imgShow' width='100%' src='img/3.jpg' />
+                 <ul id='stt'>
+                     <li><a href='#' imgtarget='img/1.jpg'></a></li>
+                     <li><a href='#' imgtarget='img/2.jpg'></a></li>
+                 </ul>
+             </div>
+        </div>
+		
+	<!-- End Banner -->
+		<!-- Main -->
+	<div id="menuft1">
+		<ul>
+			<li><a title="Đồng hồ Atlantic Swiss" href="#"><img src="img/Atlatic.jpg"</a></li>
+			<li><a title="Đồng hồ Diamomd D" href="#"><img src="img/DiamondD.jpg"</a></a></li>
+			<li><a title="Đồng hồ Jacques Lmans" href="#"><img src="img/Jacques.jpg"</a></a></li>
+			<li><a title="Đồng hồ Aries Gold" href="#"><img src="img/AriesGold.jpg"</a></a></li>
+			<li><a title="Đồng hồ Epos Swiss" href="#"><img src="img/Epos.jpg"</a></a></li>
+			<li><a title="Đồng hồ QvsQ" href="#"><img src="img/Q-Q.jpg"</a></a></li>
+		</ul>
+	</div>
+	<div class="spkm">
+		<div class="spkm1">
+			<span>SẢN PHẨM KHUYẾN MÃI</span>
+		</div>
+		<div id="menuft2" >
+			<ul >
+				<li class="mft2"><a title="Đồng hồ STUHRLING ORIGINAL ST-165B2.3345K14" href="#"><img height="250px" src="img/ST-165B2.3345K14.jpg"/></a>
+					<ul class="sub-menuft2">
+						<li><a href="#"><input class="btdg" type="button" value="Mua ngay"  /></a></li>
+						<li><a href="#"><b>Đồng hồ STUHRLING ORIGINAL ST-165B2.3345K14</b></a></li>
+						<li><a href="#"><span class="km">Giá gốc: 9.630.000 đ</span></a></li>
+						<li><a href="#"><b><font face="" color="red">Giá khuyến mãi: 5.778.000 đ</font></b></a></li>
+					</ul>
+				</li>
+				<li class="mft2"><a title="Đồng hồ STUHRLING ORIGINAL ST-934.02" href="#"><img height="250px" src="img/ST-934.02.jpg"/></a>
+					<ul class="sub-menuft2">
+						<li><a href="#"><input class="btdg" type="button" value="Mua ngay"  /></a></li>
+						<li><a href="#"><b>Đồng hồ STUHRLING ORIGINAL ST-934.02</b></a></li>
+						<li><a class="km" href="#"><span class="km">Giá gốc: 13.440.000 đ</span></a></li>
+						<li><a href="#"><b><font face="" color="red">Giá khuyến mãi: 8.064.000 đ</font></b></a></li>
+					</ul>
+				</li>
+				<li class="mft2"><a title="Đồng hồ STUHRLING ORIGINAL ST-710.04" href="#"><img height="250px" src="img/ST-710.04.jpg"/></a>
+					<ul class="sub-menuft2">
+						<li><a href="#"><input class="btdg" type="button" value="Mua ngay"  /></a></li>
+						<li><a href="#"><b>Đồng hồ STUHRLING ORIGINAL ST-710.04</b></a></li>
+						<li><a class="km" href="#"><span class="km">Giá gốc: 14.440.000 đ</span></a></li>
+						<li><a href="#"><b><font face="" color="red">Giá khuyến mãi: 8.664.000 đ</font></b></a></li>
+					</ul>
+				</li>
+				<li class="mft2"><a title="Đồng hồ STUHRLING ORIGINAL ST-747.01" href="#"><img height="250px" src="img/ST-747.01.jpg"/></a>
+					<ul class="sub-menuft2">
+						<li><a href="#"><input class="btdg" type="button" value="Mua ngay"  /></a></li>
+						<li><a href="#"><b>Đồng hồ STUHRLING ORIGINAL ST-747.01</b></a></li>
+						<li><a class="km" href="#"><span class="km">Giá gốc: 10.520.000 đ</span></a></li>
+						<li><a href="#"><b><font face="" color="red">Giá khuyến mãi: 6.312.000 đ</font></b></a></li>
+					</ul>
+				</li>
+			</ul>
+	    </div>
+	</div>
+	<div class="spnb">
+		<div class="spnb1">
+			<span>SẢN PHẨM MỚI</span>
+		</div>
+		<div class="dhes">
+		<img src="img/Capture13.PNG"/>
+		</div>
+		<div class="dhest">
+			<div class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ EPOS SWISS E-3420.152.22.16.15" href="#"><img width="88%" src="img/1244120338_E-3420.156.22.20.15.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ EPOS SWISS E-<br>3420.152.22.16.15</span></a><br>
+				<input type="button" value="32.100.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ EPOS SWISS E-3387.152.22.28.32" href="#"><img src="img/364723213_Untitled-56.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ EPOS SWISS E-<br>3387.152.22.28.32</span></a><br>
+				<input type="button" value="36.000.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ EPOS SWISS E-8000.700.22.68.32<" href="#"><img src="img/629502410_Untitled-135.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ EPOS SWISS E-<br>8000.700.22.68.32</span></a><br>
+				<input type="button" value="19.900.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ EPOS SWISS E-8000.700.22.68.15" href="#"><img src="img/1584946967_thumbnail-(3).jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ EPOS SWISS E-<br>8000.700.22.68.15</span></a><br>
+				<input type="button" value="15.100.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ EPOS SWISS E-3391.832.22.56.25" href="#"><img src="img/858150538_Untitled-11.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ EPOS SWISS E-<br>3391.832.22.56.25</span></a><br>
+				<input type="button" value="59.200.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ EPOS SWISS E-7000.701.22.18.25" href="#"><img src="img/1560014040_ảnh-test5.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ EPOS SWISS E-<br>7000.701.22.18.25</span></a><br>
+				<input type="button" value="14.000.000 đ">
+			</div>
+		</div>
+		<div class="dhes">
+			<img src="img/Capture14.PNG"/>
+		</div>
+		<div class="dhest">
+			<div class="dhes1 fl-left">
+				<a  title="ĐỒNG HỒ ATLANTIC SWISS AT-20335.45.21" href="BaoCao1.html" ><img width="88%" src="img/765176504_đồng-hô-chính-hãng12.jpg"/></a><br>
+				<a href="#"><span>Đồng hồ ATLANTIC SWISS AT-<br>50354.45.21</span></a><br>
+				<input type="button" value="13.980.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ ATLANTIC SWISS AT-64456.45.31" href="#"><img src="img/1817558337_AT-64456.45.31.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ ATLANTIC SWISS AT-<br>64456.45.31</span></a><br>
+				<input type="button" value="18.370.500 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a href="#"><img height="370" width="410" src="img/1328276598_dong-ho-thuy-sy6.jpg"/></a><br>
+			</div>
+			<div  class="dhes1 fl-right">
+				<a title="ĐỒNG HỒ ATLANTIC SWISS AT-50351.45.61" href="#"><img src="img/2032416867_Untitled-3.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ ATLANTIC SWISS AT-<br>50351.45.61</span></a><br>
+				<input type="button" value="12.780.000 đ">
+			</div>
+			<div  class="dhes1 fl-right">
+				<a title="ĐỒNG HỒ ATLANTIC SWISS AT-56555.45.21" href="#"><img src="img/1147973314_AT-56555.45.21.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ ATLANTIC SWISS AT-<br>56555.45.21</span></a><br>
+				<input type="button" value="17.170.000 đ">
+			</div>
+		</div>
+		<div class="dhes">
+			<img src="img/Capture15.PNG"/>
+		</div>
+		<div class="dhest">
+			<div class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ ARIES GOLD G903 S-W" href="#"><img src="img/556758425_64378757_1988975311208649_4488116558031224832_n.png"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ ARIES GOLD <br>G903 S-W</span></a><br>
+				<input type="button" value="9.225.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ ARIES GOLD G102 G-SG" href="#"><img src="img/7306617_Untitled-9.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ ARIES GOLD <br>G102 G-SG</span></a><br>
+				<input type="button" value="5.472.500 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ ARIES GOLD AG-L9023 S-BK" href="#"><img src="img/664894802_AG-L9023 S-BK.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ ARIES GOLD <br> AG-L9023 S-BK</span></a><br>
+				<input type="button" value="6.225.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="AG-L9023 S-BK L9023 S-W" href="#"><img src="img/2099221709_AG-L9023 S-W.jpg"/></a><br>
+				<a href="#"><span>AG-L9023 S-BK<br>L9023 S-W</span></a><br>
+				<input type="button" value="6.225.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ ARIES GOLD L5031 G-W-L" href="#"><img src="img/702352562_Untitled-1.jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ ARIES GOLD <br>L5031 G-W-L</span></a><br>
+				<input type="button" value="5.225.000 đ">
+			</div>
+			<div  class="dhes1 fl-left">
+				<a title="ĐỒNG HỒ ARIES GOLD L5032Z G-W-L" href="#"><img src="img/276234753_3 (1).jpg"/></a><br>
+				<a href="#"><span>ĐỒNG HỒ ARIES GOLD <br>L5032Z G-W-L</span></a><br>
+				<input type="button" value="4.275.000 đ">
+			</div>
+		</div>
+		<div class="dhes">
+			<img src="img/Capture16.PNG"/>
+		</div>
+		<div class="dhest">
+			<div class="dhes1 fl-left dda">
+				<a title="DÂY DA ĐĂNG QUANG D-71C-443-46A/20G" href="#"><img src="img/906071792_ddweb3.jpg"/></a><br>
+				<a href="#"><span>DÂY DA ĐĂNG QUANG D-<br>71C-443-46A/20G</span></a><br>
+				<input type="button" value="400.000 đ">
+			</div>
+			<div  class="dhes1 fl-left dda">
+				<a title="DÂY DA ĐĂNG QUANG D-71Y-109-02/24" href="#"><img src="img/1860347729_ddweb25.jpg"/></a><br>
+				<a href="#"><span>DÂY DA ĐĂNG QUANG D-<br>71Y-109-02/24</span></a><br>
+				<input type="button" value="650.000 đ">
+			</div>
+			<div  class="dhes1 fl-left dda">
+				<a title="DÂY DA ĐĂNG QUANG D-71S-816-01/20G" href="#"><img src="img/2094581742_ddweb14.jpg"/></a><br>
+				<a href="#"><span>DÂY DA ĐĂNG QUANG D-<br>71S-816-01/20G</span></a><br>
+				<input type="button" value="400.000 đ">
+			</div>
+			<div  class="dhes1 fl-left dda">
+				<a title="DÂY DA ĐĂNG QUANG D-71C-443-04/20" href="#"><img src="img/115319853_ddweb19.jpg"/></a><br>
+				<a href="#"><span>DÂY DA ĐĂNG QUANG D-<br>71C-443-04/20</span></a><br>
+				<input type="button" value="350.000 đ">
+			</div>
+			<div  class="dhes1 fl-left dda">
+				<a title="DÂY DA ĐĂNG QUANG D-71C-443-02/22G" href="#"><img src="img/808765635_DDWEB8.jpg"/></a><br>
+				<a href="#"><span>DÂY DA ĐĂNG QUANG D-<br>71C-443-02/22G</span></a><br>
+				<input type="button" value="400.000 đ">
+			</div>
+			<div  class="dhes1 fl-left dda">
+				<a title="DÂY DA BRUNO D BS-71C-443-04/20" href="#"><img src="img/146707285_ddweb17.jpg"/></a><br>
+				<a href="#"><span>DÂY DA BRUNO D BS-<br>71C-443-04/20</span></a><br>
+				<input type="button" value="2.500.000 đ">
+			</div>
+		</div>
+	</div>
+<!-- End Main -->
+<!-- Footer -->
+<footer>
+	<div class="ft">
+		<img title="Hoàng Anh Watch" src="img/Capture33.PNG"/>
+	</div>
+	<div class="ftt">
+		<div id="menuft">
+		  <ul>
+			<li class="ftt1"><span>THÔNG TIN CHUNG</span>
+				<ul class="sub-menu1">
+					<li><a href="#">Giới thiệu chung</a></li>
+					<li><a href="#">Kênh tuyển dụng</a></li>
+					<li><a href="#">Tin tức-Sự kiện</a></li>
+					<li><a href="#">Hệ thống cửa hàng</a></li>
+					<li><a href="#">Cộng đồng khách</a></li>
+				 </ul>
+			</li>
+			<li class="ftt1" ><span>HỖ TRỢ KHÁCH HÀNG</span>
+				<ul class="sub-menu1">
+					<li><a href="#">1.Chính sách bảo hàng</a></li>
+					<li><a href="#">2.Chính sách đổi hàng</a></li>
+					<li><a href="#">3.Chính sách bảo mật</a></li>
+					<li><a href="#">4.Chính sách vận chuyển</a></li>
+					<li><a href="#">5.Hướng dẫn thanh toán</a></li>
+					<li><a href="#">6.Hướng dẫn mua hàng</a></li>
+				 </ul>
+			</li>
+			<li class="ftt1" ><span>HƯỚNG DẪN VÀ TƯ VẤN</span>
+				<ul class="sub-menu1">
+					<li><a href="#">Góc hỏi đáp</a></li>
+					<li><a href="#">Chứng nhận thương hiệu</a></li>
+					<li><a href="#">Tin tức-Sự kiện</a></li>
+					<li><a href="#">Hệ thống cửa hàng</a></li>
+					<li><a href="#">Báo chí về Hoàng Anh</a></li>
+				 </ul>
+			</li>
+			<li class="ftt1"><span>HỆ THỐNG CỬA HÀNG</span>
+				<ul class="sub-menu1">
+					<li><a href="#"><img title="Hệ thống cửa hàng" width="250px" src="img/photo-1-1470836862788.jpg"/></a></li>
+					<li><center><a href="#"><font color="white" size="+1">Xem hệ thống cửa hàng</a></center></font></li>
+				 </ul>
+			</li>
+			<li class="ftt1"><span>FANPAGE CỦA CHÚNG TÔI</span>
+				<ul class="sub-menu1" >
+					<li><a href="#"><img width="200px" src="img/5-buoc-len-ke-hoach-xay-dung-fanpage-2.jpg"/</a></li>
+				 </ul>
+			</li>
+		  </ul>
+		</div>
+		<div>
+			<ul id="menuft">
+				<li class="ftt2"><a href="#"><img src="img/ico10.png"/></a></li>
+				<li><a href="#"><img src="img/ico11.png"/></a></li>
+				<li><a href="#"><img src="img/DMCA_logo-grn-btn100w.png"/></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ft3">
+		<div class="fl-left ft31"><img src="img/Capture32.PNG"/></div>
+		<div class="ft32">
+			<center><a href="#">CÔNG TY CỔ PHẦN TRỰC TUYẾN HOÀNG ANH</a>
+				<p>VPGD: Số 55 Trần Đăng Ninh-Cầu Giấy-TP.Hà Nội-Email:sieuthihoanganh@gmail.com
+					<br />
+				   Giấy CNĐKKD và MSDN số:0104938104 đăng ký lần đầu do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp ngày 07/10/2010
+				</p>
+				<font color="#F9F9F9">ĐỒNG HỒ NAM, ĐỒ HỒ THỤY SỸ</font>
+			</center>
+			
+		</div>
+	</div>
+</footer>
+<!-- End Footer -->
+</body>
+</html>
